@@ -17,7 +17,7 @@ Compile openMP code
 gcc file.c -o file -fopenmp
 ```
 
-Execute MPI code 
+Execute openMP code 
 ```
 ./file
 ```

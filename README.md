@@ -14,7 +14,7 @@ sudo apt install gcc
 
 Compile openMP code
 ```
-mpicc file.c -o file -fopenmp
+gcc file.c -o file -fopenmp
 ```
 
 Execute MPI code 

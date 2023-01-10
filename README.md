@@ -1,8 +1,8 @@
 # Parallel Systems
 
-A university project for openMP in C
+A university project in openMP and CUDA
 
-## Requirements
+## Requirements for OpenMP
 
 - [WSL2 for Windows](https://docs.microsoft.com/en-us/windows/wsl/install) or any Linux distribution 
 - [GCC](https://gcc.gnu.org/)
@@ -18,6 +18,22 @@ gcc file.c -o file -fopenmp
 ```
 
 Execute openMP code 
+```
+./file
+```
+
+
+## Requirements for CUDA
+
+- NVIDIA Graphics Card
+- [NVDIA Cuda Toolkit](https://developer.nvidia.com/cuda-downloads)
+
+Compile CUDA code
+```
+nvcc file.cu -o file
+```
+
+Execute CUDA code 
 ```
 ./file
 ```

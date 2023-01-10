@@ -96,7 +96,7 @@ int main(int argc, char *argv[])
 
     // Get the end time and calculate elapsed time
     gettimeofday(&cpu_end, NULL);
-    fprintf(stdout, "CPU Runtime :%0.6lfs\n", ((cpu_end.tv_sec - cpu_start.tv_sec) * 1000000.0 + (cpu_end.tv_usec - cpu_start.tv_usec)) / 1000000.0);
+    fprintf(stdout, "Runtime :%0.6lfs\n", ((cpu_end.tv_sec - cpu_start.tv_sec) * 1000000.0 + (cpu_end.tv_usec - cpu_start.tv_usec)) / 1000000.0);
 
     // Free memory
     cudaFree(d_A);
